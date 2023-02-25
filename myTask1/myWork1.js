@@ -28,10 +28,11 @@ const person = {
     },
   ],
 };
-let getting = () => {
+
+let getPerson = () => {
   let getUi = document.getElementById("ui");
   person.result.forEach((element) => {
-    let crtDiv = (document.createElement = "div");
+    let crtDiv = document.createElement("div");
     crtDiv.innerHTML = `
     <div class="card">
       <h2 class="heading">
@@ -48,4 +49,4 @@ let getting = () => {
     getUi.appendChild(crtDiv);
   });
 };
-getting();
+getPerson();

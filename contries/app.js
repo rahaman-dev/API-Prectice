@@ -29,4 +29,5 @@ let getCountries = (countries) => {
     getCountry.appendChild(crtDiv);
   });
 };
+
 loadCountries();
